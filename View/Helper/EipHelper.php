@@ -339,6 +339,7 @@ class EipHelper extends AppHelper {
 			'validate',
 			'value',
 			'source',
+			'select2',
 			// extras for other types
 			'format',
 			'viewformat',
