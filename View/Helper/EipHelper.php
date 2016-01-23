@@ -347,7 +347,7 @@ class EipHelper extends AppHelper {
 			// data source for select / checklist
 			'source',
 			'sourceCache',
-			'sourceError'
+			'sourceError',
 			'wysihtml5'
 		);
 		//$jsOptions = Set::filter($jsOptions);
