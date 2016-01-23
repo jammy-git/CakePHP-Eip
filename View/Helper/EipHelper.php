@@ -325,6 +325,7 @@ class EipHelper extends AppHelper {
 			'autotext',
 			'disabled',
 			'emptyclass',
+			'inputclass',
 			'emptytext',
 			'onblur',
 			'params',
