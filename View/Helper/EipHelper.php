@@ -348,6 +348,7 @@ class EipHelper extends AppHelper {
 			'source',
 			'sourceCache',
 			'sourceError'
+			'wysihtml5'
 		);
 		//$jsOptions = Set::filter($jsOptions);
 		foreach (array_keys($jsOptions) as $k) {
