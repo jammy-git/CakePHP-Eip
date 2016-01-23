@@ -415,7 +415,7 @@ class EipHelper extends AppHelper {
 		if (!empty($this->js)) {
 			$content .= $this->Html->css( $this->pathToCss, null, array('inline' => false) );
 			//$content .= $this->Html->script( $this->pathToJs, array('inline' => false) );
-			$this->Html->scriptBlock('$.getScript("' . $this->pathToJs . '", function() { ' . $this->js . '});', array('inline' => false));
+			$this->Html->scriptBlock('jQuery(function() { ' . $this->js . '});', array('inline' => false));
 		}
 		return $content;
 	}
